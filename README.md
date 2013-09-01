@@ -11,6 +11,6 @@ Installation
     cd askbot_reusable
     pip install -r requirements.txt
     python manage.py collectstatic
-    python manage.py syncdb
+    python manage.py syncdb --migrate --noinput
     python manage.py runserver
     

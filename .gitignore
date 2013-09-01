@@ -1,5 +1,6 @@
 *.log
 *.pot
 *.pyc
+askbot
 static/
 local_settings.py
